@@ -16,3 +16,4 @@ C:\Users\vesel\RiderProjects\Shrooman\Shrooman\obj\Debug\net9.0\Shrooman.pdb
 C:\Users\vesel\RiderProjects\Shrooman\Shrooman\obj\Debug\net9.0\Shrooman.genruntimeconfig.cache
 C:\Users\vesel\RiderProjects\Shrooman\Shrooman\obj\Debug\net9.0\ref\Shrooman.dll
 C:\Users\vesel\RiderProjects\Shrooman\Shrooman\bin\Debug\net9.0\Spectre.Console.Ansi.dll
+C:\Users\vesel\RiderProjects\Shrooman\Shrooman\obj\Debug\net9.0\Shrooman.sourcelink.json

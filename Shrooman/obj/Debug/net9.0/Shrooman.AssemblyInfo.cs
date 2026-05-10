@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shrooman")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+934a88c94edca1376c1de518d8c4af4ebb32361d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shrooman")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shrooman")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
