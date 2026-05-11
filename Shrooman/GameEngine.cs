@@ -20,10 +20,24 @@ public class GameEngine
     private Workshop _workshop = new Workshop();
     private List<Seed> _shopStock = new List<Seed>();
     private bool _isRunning = true;
-    private string _saveFile = "savegame.json";
+    //snad ted
+    private string _saveFile;
+    public void InitializeSavePath()
+    {
+        string folder = Path.Combine(
+            Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), 
+            "Shrooman"
+        );
+        if (!Directory.Exists(folder))
+        {
+            Directory.CreateDirectory(folder);
+        }
+        _saveFile = Path.Combine(folder, "savegame.json");
+    }
 
     public GameEngine()
     {
+        InitializeSavePath();
         _shopStock.Add(new Seed("White Widow", 10, 20, 2));
         _shopStock.Add(new Seed("Bubba Kush", 30, 80, 3));
         _shopStock.Add(new Seed("Purple Kush", 60, 200, 3));
